@@ -1,4 +1,3 @@
-/** @type { import('@storybook/react-webpack5').StorybookConfig } */
 const config = {
   stories: ["../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: [
@@ -10,10 +9,7 @@ const config = {
     name: "@storybook/react-webpack5",
     options: {},
   },
-  docs: {
-    autodocs: "tag",
-  },
-  staticDirs: ["../public"],
+  docs: { autodocs: "tag" },
   webpackFinal: async (config) => {
     config.module.rules.push({
       test: /\.(js|jsx)$/,
