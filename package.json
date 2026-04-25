@@ -1,0 +1,37 @@
+{
+  "name": "storybook-design-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@babel/preset-react": "^7.28.5",
+    "@storybook/addon-essentials": "^8.6.18",
+    "@storybook/addon-interactions": "^8.6.18",
+    "@storybook/addon-links": "^8.6.18",
+    "@storybook/addon-onboarding": "^8.1.10",
+    "@storybook/blocks": "^8.6.18",
+    "@storybook/react": "^8.6.18",
+    "@storybook/react-webpack5": "^8.6.18",
+    "@storybook/test": "^8.6.18",
+    "ajv": "^8.20.0",
+    "ajv-keywords": "^5.1.0",
+    "babel-loader": "^9.2.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "storybook": "^8.6.18",
+    "webpack": "^5.106.2"
+  }
+}
